@@ -16,7 +16,7 @@ RUN bash -c "echo eula=true > eula.txt"
 # Copy server configuration
 COPY server.properties .
 COPY ops.txt .
-COPY mods .
+COPY mods/ mods/
 
 EXPOSE 25565
 
