@@ -20,4 +20,4 @@ COPY mods/ mods/
 
 EXPOSE 25565
 
-CMD ["java", "-jar", "forge-1.15.2-31.2.5.jar"]
+CMD ["java", "-jar", "-Xmx1526M", "-Xms1526M", "forge-1.15.2-31.2.5.jar", "nogui"]
